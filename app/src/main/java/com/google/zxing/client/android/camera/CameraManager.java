@@ -88,6 +88,7 @@ public final class CameraManager {
             camera = theCamera;
         }
         theCamera.setPreviewDisplay(holder);
+        theCamera.setDisplayOrientation(90);
 
         if (!initialized) {
             initialized = true;
